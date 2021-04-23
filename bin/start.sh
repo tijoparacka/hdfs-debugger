@@ -12,4 +12,4 @@ java -server -Xmx2048m \
 -XX:+HeapDumpOnOutOfMemoryError \
 -XX:+ExitOnOutOfMemoryError \
 -XX:+PrintGC \
--XX:HeapDumpPath=/tmp/druid-heap.hprof -cp "$jarpath" io.imply.Test principal keytab /
+-XX:HeapDumpPath=/tmp/druid-heap.hprof -cp "$jarpath" com.examples.Test <principal> <keytab> <path eg /warehouse>
